@@ -5,7 +5,7 @@ During my studies at Moscow Institute of Physics and Technologies, I visited 2 s
 Recently the closed tests were revealed for us and I decided to refactor a bit my work and add support of GTest library for more convenient testing environment.
 
 Tasks:
-- String
+- String *(done)*
 - BigInteger + Rational
 - Geometry
 - Matrix
