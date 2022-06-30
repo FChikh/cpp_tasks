@@ -1,4 +1,4 @@
-#include "test_biginteger.h"
+#include "old_tests.h"
 #include "biginteger.h"
 
 int main() {
