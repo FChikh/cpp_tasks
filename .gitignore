@@ -49,6 +49,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+.cmake
+*/build
 
 ### CMake Patch ###
 # External projects
@@ -88,7 +90,8 @@ Temporary Items
 *.icloud
 
 ### VisualStudioCode ###
-.vscode/*
+*vscode
+
 
 # Local History for Visual Studio Code
 .history/
