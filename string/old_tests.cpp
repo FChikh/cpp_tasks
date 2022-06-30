@@ -1,3 +1,5 @@
+// Before refactoring
+
 #include "string.h"
 
 #include <cassert>
