@@ -51,6 +51,7 @@ CTestTestfile.cmake
 _deps
 .cmake
 */build
+build
 
 ### CMake Patch ###
 # External projects
