@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(cpp_string)
+project(biginteger)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -19,14 +19,23 @@ include_directories(${CPR_INCLUDE_DIRS})
 enable_testing()
 
 add_executable(
-    test_string
-    test_string.cc
+    test_biginteger
+    test_biginteger.cc
 )
 target_link_libraries(
-    test_string
+    test_biginteger
+    gtest_main
+)
+
+add_executable(
+    test_rational
+    test_rational.cc
+)
+target_link_libraries(
+    test_rational
     gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(test_string)
-
+gtest_discover_tests(test_biginteger)
+gtest_discover_tests(test_rational)
