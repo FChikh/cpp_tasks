@@ -1,4 +1,4 @@
-# CPP example tasks
+# C++ example tasks
 
 During my studies at Moscow Institute of Physics and Technologies, I took 2 semesters of C++ course by Ilya Mescherin a.k.a. @mesyarik. Our hometasks were to implement different data structures from C++ standard library by ourselves, using course materials. And then these algorithms and data structures should pass some public and closed tests. 
 
